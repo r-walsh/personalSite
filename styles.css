@@ -1,0 +1,52 @@
+/* http://www.color-hex.com/color-palette/895 */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #88d8b0;
+	font-family: 'Raleway', sans-serif;
+	overflow: visible;
+}
+a, li, ul, div {
+	margin: 0;
+	padding: 0;
+}
+#header {
+	width: 100%;
+	height: 100px;
+	font-size: 1.4em;
+}
+#logo {
+	margin: 15px 0 0 17px;
+	display: inline-block;
+}
+#github {
+	float: right;
+	display: inline-block;
+	margin: 14px 17px 0 0;
+	color: black;
+	font-size: .8em;
+}
+#nav-bar {
+	list-style: none;
+	display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+	height: 28px;
+	width: 100%;
+	background-color: #ff6f69;
+}
+.nav-item {
+	float: left;
+	margin: 3px 0 0 5px;	
+	font-size: .8em;
+	background-color: #ff6f69;
+	border-radius: 2px;
+	width: 200px;
+	text-align: center;
+}
+.nav-item a {
+	text-decoration: none;
+	color: black;
+}
