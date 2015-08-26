@@ -17,15 +17,8 @@ a, li, ul, div {
 	font-size: 1.4em;
 }
 #logo {
-	margin: 15px 0 0 17px;
+	margin: 10px 0 0 17px;
 	display: inline-block;
-}
-#github {
-	float: right;
-	display: inline-block;
-	margin: 14px 17px 0 0;
-	color: black;
-	font-size: .8em;
 }
 #nav-bar {
 	list-style: none;
@@ -49,4 +42,14 @@ a, li, ul, div {
 .nav-item a {
 	text-decoration: none;
 	color: black;
+}
+#profile-container {
+	height: 95px;
+	width: 36px;
+	position: fixed;
+	left: 15px;
+}
+#profile-links {
+	list-style: none;
+	text-align: center;
 }
