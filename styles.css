@@ -48,8 +48,37 @@ a, li, ul, div {
 	width: 36px;
 	position: fixed;
 	left: 15px;
+	top: 10%;
 }
 #profile-links {
 	list-style: none;
 	text-align: center;
 }
+/* These are only on index and projects pages */
+#post-wrapper {
+	width: 55%;
+	min-height: 500px;
+	margin: 0 auto;
+}
+.post {
+	margin: 25px auto;
+	border-top: 1px solid #ffeead;
+	border-bottom: 1px solid #ffeead;
+	width: 90%;
+}
+/* These are for the about page */
+#about-wrapper {
+	width: 50%;
+	margin: 80px auto;
+}
+#pic-of-me {
+	background-color: black;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto 55px auto;
+}
+
+
+
+
